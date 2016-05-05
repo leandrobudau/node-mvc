@@ -2,8 +2,9 @@ var express = require('express');
 var load = require('express-load');
 
 var app = express();
-app.set('view engine','jade');
 
+app.set('view engine','jade');
+app.use(express.static(__dirname + '/public'))
 
 //Create structure to MVC
 load('models')
