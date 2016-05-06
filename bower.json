@@ -1,0 +1,22 @@
+{
+  "name": "mvc",
+  "description": "Criando estrutura MVC no Node JS",
+  "main": "app.js",
+  "authors": [
+    "leandrobudau <leandrobudau@hotmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/leandrobudau/node-mvc",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "font-awesome": "^4.6.2"
+  }
+}

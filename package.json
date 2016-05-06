@@ -9,9 +9,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-      "express": "*",
-      "express-load": "*",
-      "jade": "*",
-      "mongoose": "*"
+    "body-parser": "^1.15.1",
+    "express": "*",
+    "express-load": "*",
+    "jade": "*",
+    "mongoose": "*"
   }
 }
