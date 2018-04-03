@@ -1,5 +1,5 @@
 var express = require('express');
-var load = require('express-load');
+var consign = require('consign');
 var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
 
@@ -23,12 +23,13 @@ app.set('view engine','jade');
 app.use(express.static(__dirname));
 
 //Create structure to MVC
-load('models')
+consign().
+	include('models')
     .then('controllers')
     .then('routes')
     .into(app);
 
-app.listen(3000, function () {
+app.listen(5000, function () {
     console.log('Running project in port 3000');
 });
 

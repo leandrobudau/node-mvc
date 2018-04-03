@@ -4,15 +4,20 @@
   "description": "Criando estrutura MVC no Node JS",
   "main": "app.js",
   "scripts": {
+    "start:dev": "nodemon ./app.js --ext js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.15.1",
+    "consign": "^0.1.6",
     "express": "*",
     "express-load": "*",
     "jade": "*",
-    "mongoose": "*"
+    "mongoose": "^5.0.12"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
   }
 }
